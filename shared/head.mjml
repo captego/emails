@@ -1,0 +1,11 @@
+<mj-raw>
+  <meta name="color-scheme" content="light" />
+  <meta name="supported-color-schemes" content="light" />
+</mj-raw>
+<mj-font name="Mulish" href="https://fonts.googleapis.com/css2?family=Mulish" />
+<mj-font name="Fira Code" href="https://fonts.googleapis.com/css2?family=Fira+Code" />
+<mj-attributes>
+  <mj-text align="left" color="#1A202C" />
+  <mj-section padding="4px" />
+  <mj-all font-family="Mulish, Helvetica, sans-serif" font-size="16px" line-height="1.5" font-weight="400" />
+</mj-attributes>

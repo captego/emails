@@ -1,0 +1,45 @@
+<mj-section>
+  <mj-column>
+    <mj-text>
+      <p>
+        {{#equals locale "en-US"}}If you didn't request this email, you can safely ignore it.{{/equals}}
+        {{#equals locale "en-GB"}}If you didn't request this email, you can safely ignore it.{{/equals}}
+        {{#equals locale "da-DK"}}Hvis du ikke har anmodet om denne e-mail, kan du sikkert ignorere den.{{/equals}}
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section>
+  <mj-column>
+    <mj-text align="center" font-size="14px" color="#49647c">
+      {{#equals locale "en-US"}}Made by Captego ApS{{/equals}}
+      {{#equals locale "en-GB"}}Made by Captego ApS{{/equals}}
+      {{#equals locale "da-DK"}}Fremstillet af Captego ApS{{/equals}}
+    </mj-text>
+    <mj-text align="center" font-size="14px" color="#49647c">
+      {{#equals locale "en-US"}}Borggade 1, 8000 Aarhus, Denmark{{/equals}}
+      {{#equals locale "en-GB"}}Borggade 1, 8000 Aarhus, Denmark{{/equals}}
+      {{#equals locale "da-DK"}}Borggade 1, 8000 Aarhus{{/equals}}
+    </mj-text>
+    <mj-text align="center" font-size="14px" color="#49647c">
+      {{#equals locale "en-US"}}DK-CVR 39630680{{/equals}}
+      {{#equals locale "en-GB"}}DK-CVR 39630680{{/equals}}
+      {{#equals locale "da-DK"}}CVR 39630680{{/equals}}
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section>
+  <mj-column>
+    <mj-button background-color="transparent" color="#00d3dd" font-size="14px" href="https://www.captego.com/termsandconditions?utm_source=notification&amp;utm_medium=email&amp;utm_campaign=manage">
+      {{#equals locale "en-US"}}Terms{{/equals}}
+      {{#equals locale "en-GB"}}Terms{{/equals}}
+      {{#equals locale "da-DK"}}Vilkår for brug{{/equals}}
+    </mj-button>
+  </mj-column>
+  <mj-column>
+    <mj-button background-color="transparent" color="#00d3dd" font-size="14px" href="https://www.captego.com/privacypolicy?utm_source=notification&amp;utm_medium=email&amp;utm_campaign=manage">
+      {{#equals locale "en-US"}}Privacy{{/equals}}
+      {{#equals locale "en-GB"}}Privacy{{/equals}}
+      {{#equals locale "da-DK"}}Privatlivspolitik{{/equals}}
+    </mj-button>
+</mj-section>
