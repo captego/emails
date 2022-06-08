@@ -1,0 +1,35 @@
+<mjml lang="{{locale}}">
+  <mj-head>
+    <mj-title>
+      {{#equals locale "en-US"}}Captego invitation{{/equals}}
+      {{#equals locale "en-GB"}}Captego invitation{{/equals}}
+      {{#equals locale "da-DK"}}Captego invitation{{/equals}}
+    </mj-title>
+    <mj-include path="./shared/head.mjml" />
+  </mj-head>
+  <mj-body background-color="#f7fafc">
+    <mj-include path="./shared/header.mjml" />
+    <mj-section>
+      <mj-column>
+        <mj-text font-weight="700" font-size="30px">
+          {{#equals locale "en-US"}}Hi {{recipientName}},{{/equals}}
+          {{#equals locale "en-GB"}}Hi {{recipientName}},{{/equals}}
+          {{#equals locale "da-DK"}}Hej {{recipientName}},{{/equals}}
+        </mj-text>
+        <mj-text>
+          <p>
+            {{#equals locale "en-US"}}{{senderName}} has sent you a Captego invite to the {{invitationType}} "{{itemTitle}}".{{/equals}}
+            {{#equals locale "en-GB"}}{{senderName}} has sent you a Captego invite to the {{invitationType}} "{{itemTitle}}".{{/equals}}
+            {{#equals locale "da-DK"}}{{senderName}} har sendt dig en Captego invitation til {{invitationType}} "{{itemTitle}}".{{/equals}}
+          </p>
+          <p>
+            {{#equals locale "en-US"}}Please go to the <a href="{{appStoreUrl}}">Apple App Store</a> or <a href="{{playStoreUrl}}">Google Play Store</a> to download the Captego app and create an account using the email address {{recipientEmail}} to get access to the {{invitationType}}.{{/equals}}
+            {{#equals locale "en-GB"}}Please go to the <a href="{{appStoreUrl}}">Apple App Store</a> or <a href="{{playStoreUrl}}">Google Play Store</a> to download the Captego app and create an account using the email address {{recipientEmail}} to get access to the {{invitationType}}.{{/equals}}
+            {{#equals locale "da-DK"}}Gå til <a href="{{appStoreUrl}}">Apple App Store</a> eller <a href="{{playStoreUrl}}">Google Play Store</a> for at downloade Captego-appen og oprette en konto med e-mail-adressen {{recipientEmail}} for at få adgang til {{invitationType}}.{{/equals}}
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./shared/footer.mjml" />
+  </mj-body>
+</mjml>
